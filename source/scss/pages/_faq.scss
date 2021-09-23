@@ -1,16 +1,10 @@
 .faq {
   @include media-breakpoint-down(sm) {
-    h3 {
-      font-size: 24px;
-    }
     h5 {
       font-size: 18px;
     }
   }
   @include media-breakpoint-down(xxs) {
-    h3 {
-      font-size: 22px;
-    }
     p {
       font-size: 14px;
     }

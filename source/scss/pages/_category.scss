@@ -27,29 +27,20 @@
   }
 }
 
-.categoryList {
-  .block {
-    width: 24px;
-    height: 24px;
-    border-radius: 4px;
-  }
-  @include media-breakpoint-down(sm) {
-    h4 {
-      font-size: 18px;
-    }
-    .block {
-      width: 20px;
-      height: 20px;
-    }
-  }
-}
-
 .categoryPic {
   height: 170px;
   background-size: 105%;
+  position: relative;
   transition: all 0.5s;
   &:hover {
     background-size: 115%;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($secondary, .1);
   }
   @include media-breakpoint-down(xs) {
     height: 200px;

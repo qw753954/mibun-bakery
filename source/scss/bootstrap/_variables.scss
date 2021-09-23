@@ -64,7 +64,7 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       #dfbe82 !default;
+$primary:       #e6b986 !default;
 $priLight:      #fffcf7 !default;
 $secondary:     #5a504b !default;
 $sort1:         #5F3E2D !default;
@@ -733,7 +733,7 @@ $nav-divider-margin-y:              $spacer / 2 !default;
 
 // Navbar
 
-$navbar-padding-y:                  $spacer !default;
+$navbar-padding-y:                  8px; // $spacer !default;
 $navbar-padding-x:                  $spacer !default;
 
 $navbar-nav-link-padding-x:         .5rem !default;

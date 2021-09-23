@@ -1,0 +1,12 @@
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-sm-fixed {
+  background-attachment: fixed;
+  @include media-breakpoint-down(sm) {
+    background-attachment: scroll;
+  }
+}

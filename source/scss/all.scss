@@ -1,0 +1,15 @@
+@import "bootstrap/bootstrap";
+@import "global";
+@import "utils";
+@import "component";
+
+@import "layout/header"; 
+
+@import "pages/index"; 
+@import "pages/category";
+@import "pages/location";
+@import "pages/faq";
+@import "pages/blog";
+@import "pages/post";
+
+@import "layout/footer"; 

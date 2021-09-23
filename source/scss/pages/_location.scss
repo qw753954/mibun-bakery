@@ -1,0 +1,55 @@
+.locQueBanner {
+  height: 300px;
+  @include media-breakpoint-down(md) {
+    h2 {
+      font-size: 48px;
+    }
+    img {
+      height: 40px;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    height: 180px;
+    h2 {
+      font-size: 32px;
+    }
+    img {
+      height: 26px;
+    }
+  }
+}
+
+.location {
+  select {
+    max-width: 315px;
+  }
+  a:hover {
+    background-color: $dark;
+    transition: 0.5s;
+  }
+  @include media-breakpoint-down(sm) {
+    label {
+      font-size: 16px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    a {
+      font-size: 16px;
+    }
+  }
+}
+
+.locatePic {
+  height: 225px;
+  @include media-breakpoint-down(sm) {
+    height: 165px;
+  }
+}
+
+.mapRWD {
+  height: 465px;
+  @include media-breakpoint-down(sm) {
+    height: 300px;
+  }
+}

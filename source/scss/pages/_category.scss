@@ -1,0 +1,83 @@
+.category {
+  a {
+    width: 100%;
+  }
+  .active, li:hover {
+    background: linear-gradient(white 85%, $primary 15%);
+  }
+  @include media-breakpoint-down(lg) {
+    a {
+      font-size: 32px;
+    }
+    li:first-child img {
+      width: 32px;
+    }
+    li:nth-child(n + 2) img {
+      height: 32px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    a {
+      font-size: 28px;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    a {
+      font-size: 22px;
+    }
+    li:first-child img {
+      width: 26px;
+    }
+    li:nth-child(n + 2) img {
+      height: 26px;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    a {
+      font-size: 18px;
+    }
+    li:first-child img {
+      width: 22px;
+    }
+    li:nth-child(n + 2) img {
+      height: 22px;
+    }
+  }
+  @include media-breakpoint-down(xxs) {
+    .active {
+      order: -1;
+    }
+  }
+}
+
+.categoryList {
+  .block {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+  }
+  @include media-breakpoint-down(sm) {
+    h4 {
+      font-size: 18px;
+    }
+    .block {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.categoryPic {
+  height: 170px;
+  background-size: 105%;
+  transition: all 0.5s;
+  &:hover {
+    background-size: 115%;
+  }
+  @include media-breakpoint-down(xs) {
+    height: 200px;
+  }
+  @include media-breakpoint-down(xxs) {
+    height: 170px;
+  }
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>門市據點 | MiBun · 手作烘焙坊</title>
+
+  <meta name='description' content='Bakery from Taiwan.' />
+  <meta property="og:title" content="MiBun" />
+  <meta property="og:description" content="手作的溫度，烘暖人心">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://qw753954.github.io/mibun-bakery/" />
+  <meta property="og:image" content="https://i.imgur.com/Cp82y5I.png" />
+
+  <link rel="shortcut icon" href="source/img/shortcut.png">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="source/css/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <div class="container-fluid">
+      <!-- ham-icon -->
+      <button class="navbar-toggler border-0 p-1 position-absolute" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- logo -->
+      <h1 class="w-100 d-flex d-md-none justify-content-center">
+        <a href="index.html" class="logo">MiBun</a>
+      </h1>
+      <h1 class="d-none d-md-block">
+        <a href="index.html" class="logo">MiBun</a>
+      </h1>
+      <!-- menu -->
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="h5 navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link px-md-3 px-lg-4" href="category_bread.html">手作烘焙</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link px-md-3 px-lg-4" href="location.html">門市據點</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-md-3 px-lg-4" href="blog.html">部落格</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-md-3 px-lg-4" href="faq.html">常見問題</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- hamburger-navBar -->
+  <div class="collapse navbar-collapse d-md-none" id="navbarSupportedContent">
+    <ul class="navbar-nav text-center bg-primary">
+      <li class="nav-item border-top border-bottom">
+        <a class="nav-link ham text-white py-4" href="category_bread.html">手作烘焙</a>
+      </li>
+      <li class="nav-item border-top border-bottom">
+        <a class="nav-link ham text-white py-4" href="location.html">門市據點</a>
+      </li>
+      <li class="nav-item border-top border-bottom">
+        <a class="nav-link ham text-white py-4" href="blog.html">部落格</a>
+      </li>
+      <li class="nav-item border-top">
+        <a class="nav-link ham text-white py-4" href="faq.html">常見問題</a>
+      </li>
+    </ul>
+  </div>
+
+
+  <!------------ 客製化 Start ------------>
+
+  <!-- 標題 -->
+  <div class="locQueBanner bg-cover d-flex align-items-end mb-3"
+    style="background-image: url('source/img/banner/banner-5.png');">
+    <div class="container">
+      <h2 class="display-4 text-priLight">
+        門市據點 <i class="fas fa-map-marker-alt text-primary"></i>
+      </h2>
+    </div>
+  </div>
+
+  <!-- 門市列表 -->
+  <div class="location container pb-8 pb-md-12">
+    <form class="form-inline-block d-flex align-items-center mb-6">
+      <label class="h5 text-nowrap mr-4" for="locate">選擇地區</label>
+      <select id="locate" class="custom-select custom-select-md">
+        <option selected>台北市</option>
+        <option value="1">新北市</option>
+      </select>
+    </form>
+    <ul class="row list-unstyled">
+      <li class="col-sm-6 col-lg-4 mb-3 mb-md-6">
+        <div class="locatePic bg-cover" style="background-image: url('source/img/location/locate-1.jpg')"></div>
+        <h3 class="h4 border border-grey px-3 px-md-5 py-3">台北西門店</h3>
+        <ul class="list-unstyled border border-top-0 border-grey px-3 px-md-5 py-3">
+          <li class="d-flex align-items-center mb-3">
+            <i class="far fa-phone-alt fa-lg fa-fw mr-2"></i>
+            <span>電話：(02)444-1234</span>
+          </li>
+          <li class="d-flex align-items-center mb-3">
+            <i class="far fa-clock fa-lg fa-fw mr-2"></i>
+            <span>營業時間：10:00 - 21:30</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="far fa-map-marker-alt fa-lg fa-fw mr-2"></i>
+            <span>地址：台北市中正區範例路一段57號</span>
+          </li>
+        </ul>
+        <a href="location_store.html" class="btn-secondary text-center py-3">詳細資訊</a>
+      </li>
+      <li class="col-sm-6 col-lg-4 mb-3 mb-md-6">
+        <div class="locatePic bg-cover" style="background-image: url('source/img/location/locate-2.jpg')"></div>
+        <h3 class="h4 border border-grey px-3 px-md-5 py-3">台北重慶店</h3>
+        <ul class="list-unstyled border border-top-0 border-grey px-3 px-md-5 py-3">
+          <li class="d-flex align-items-center mb-3">
+            <i class="far fa-phone-alt fa-lg fa-fw mr-2"></i>
+            <span>電話：(02)333-1234</span>
+          </li>
+          <li class="d-flex align-items-center mb-3">
+            <i class="far fa-clock fa-lg fa-fw mr-2"></i>
+            <span>營業時間：10:00 - 21:00</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="far fa-map-marker-alt fa-lg fa-fw mr-2"></i>
+            <span>地址：台北市大同區範例路120號</span>
+          </li>
+        </ul>
+        <a href="location_store.html" class="btn-secondary text-center py-3">詳細資訊</a>
+      </li>
+      <li class="col-sm-6 col-lg-4 mb-3 mb-md-6">
+        <div class="locatePic bg-cover" style="background-image: url('source/img/location/locate-3.jpg')"></div>
+        <h3 class="h4 border border-grey px-3 px-md-5 py-3">台北大直店</h3>
+        <ul class="list-unstyled border border-top-0 border-grey px-3 px-md-5 py-3">
+          <li class="d-flex align-items-center mb-3">
+            <i class="far fa-phone-alt fa-lg fa-fw mr-2"></i>
+            <span>電話：(02)222-1234</span>
+          </li>
+          <li class="d-flex align-items-center mb-3">
+            <i class="far fa-clock fa-lg fa-fw mr-2"></i>
+            <span>營業時間：10:30 - 21:00</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="far fa-map-marker-alt fa-lg fa-fw mr-2"></i>
+            <span>地址：台北市中山區範例路二段6號</span>
+          </li>
+        </ul>
+        <a href="location_store.html" class="btn-secondary text-center py-3">詳細資訊</a>
+      </li>
+      <li class="col-sm-6 col-lg-4 mb-3 mb-md-6">
+        <div class="locatePic bg-cover" style="background-image: url('source/img/location/locate-4.jpg')"></div>
+        <h3 class="h4 border border-grey px-3 px-md-5 py-3">台北士林店</h3>
+        <ul class="list-unstyled border border-top-0 border-grey px-3 px-md-5 py-3">
+          <li class="d-flex align-items-center mb-3">
+            <i class="far fa-phone-alt fa-lg fa-fw mr-2"></i>
+            <span>電話：(02)111-1234</span>
+          </li>
+          <li class="d-flex align-items-center mb-3">
+            <i class="far fa-clock fa-lg fa-fw mr-2"></i>
+            <span>營業時間：09:00 - 20:30</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="far fa-map-marker-alt fa-lg fa-fw mr-2"></i>
+            <span>地址：台北市士林區範例路257號</span>
+          </li>
+        </ul>
+        <a href="location_store.html" class="btn-secondary text-center py-3">詳細資訊</a>
+      </li>
+      <li class="col-sm-6 col-lg-4 mb-3 mb-md-6">
+        <div class="locatePic bg-cover" style="background-image: url('source/img/location/locate-5.jpg')"></div>
+        <h3 class="h4 border border-grey px-3 px-md-5 py-3">台北內湖店</h3>
+        <ul class="list-unstyled border border-top-0 border-grey px-3 px-md-5 py-3">
+          <li class="d-flex align-items-center mb-3">
+            <i class="far fa-phone-alt fa-lg fa-fw mr-2"></i>
+            <span>電話：(02)000-1234</span>
+          </li>
+          <li class="d-flex align-items-center mb-3">
+            <i class="far fa-clock fa-lg fa-fw mr-2"></i>
+            <span>營業時間：10:00 - 22:00</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="far fa-map-marker-alt fa-lg fa-fw mr-2"></i>
+            <span>地址：台北市內湖區範例路101號</span>
+          </li>
+        </ul>
+        <a href="location_store.html" class="btn-secondary text-center py-3">詳細資訊</a>
+      </li>
+    </ul>
+
+  </div>
+
+  <!------------ 客製化 End ------------>
+
+
+  <!-- Footer -->
+  <div class="bg-secondary text-priLight py-6">
+    <div class="container-lg">
+      <div
+        class="border-bottom d-flex flex-column flex-xs-row-reverse flex-md-column justify-content-between pb-4 mb-5">
+        <!-- 選單 + sns -->
+        <div class="d-flex justify-content-between align-items-md-center mb-5">
+          <ul class="list-unstyled d-none d-md-flex mb-0">
+            <li class="mr-4">
+              <a class="text-priLight py-2" href="index.html">首頁</a>
+            </li>
+            <li class="mr-4">
+              <a class="text-priLight py-2" href="category_bread.html">手作烘焙</a>
+            </li>
+            <li class="mr-4">
+              <a class="text-priLight py-2" href="location.html">門市據點</a>
+            </li>
+            <li class="mr-4">
+              <a class="text-priLight py-2" href="blog.html">部落格</a>
+            </li>
+            <li>
+              <a class="text-priLight py-2" href="faq.html">常見問題</a>
+            </li>
+          </ul>
+          <ul class="list-unstyled d-flex mb-0">
+            <li class="mr-3 mr-md-5">
+              <a href="#" target="_blank"><img src="source/img/icon/icon-fb.svg" class="foSocial"></a>
+            </li>
+            <li class="mr-3 mr-md-5">
+              <a href="#" target="_blank"><img src="source/img/icon/icon-ig.svg" class="foSocial"></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><img src="source/img/icon/icon-line.svg" class="foSocial"></a>
+            </li>
+          </ul>
+        </div>
+        <!-- 電話 + 信箱 -->
+        <ul class="foContact list-unstyled d-flex flex-column">
+          <li class="d-flex align-items-center mb-3">
+            <img src="source/img/icon/icon-phone.png" class="mr-3">
+            <a href="tel:+0800-000-000" class="text-priLight">0800-000-000</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img src="source/img/icon/icon-mail.svg" class="mr-3">
+            <a href="mailto:mibun@business.com" class="text-priLight">mibun@business.com</a>
+          </li>
+        </ul>
+      </div>
+      <!-- 版權 -->
+      <div
+        class="small d-flex flex-column flex-md-row justify-content-md-between align-items-md-center position-relative">
+        <p>Copyright © 2021 MiBun. All rights reserved.</p>
+        <ul class="list-unstyled d-flex flex-column flex-md-row mb-0">
+          <li class="mb-1 mb-md-0 mr-2 mr-md-5">
+            <a href="#" class="text-priLight">隱私權政策</a>
+          </li>
+          <li>
+            <a href="#" class="text-priLight">服務條款</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- BS4 -->
+  <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

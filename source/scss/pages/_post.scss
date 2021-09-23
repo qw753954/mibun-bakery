@@ -1,0 +1,46 @@
+.post {
+  a {
+    transition: .3s;
+    &:hover {
+      color: $primary !important;
+      background-color: transparent;
+    }
+  }
+  .tagMain,
+  .tag li {
+    line-height: 1.8;
+  }
+  @include media-breakpoint-down(md) {
+    h2 {
+      font-size: 32px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    .tag {
+      h3 {
+        font-size: 22px;
+      }
+      li {
+        font-size: 18px;
+      }
+    }
+  }
+  @include media-breakpoint-down(xxs) {
+    h2 {
+      font-size: 22px;
+    }
+    .tagMain,
+    .tag li {
+      font-size: 16px;
+    }
+    .share {
+      span {
+        font-size: 16px;
+      }
+      a {
+        font-size: 24px;
+      }
+    }
+  }
+}

@@ -3,18 +3,7 @@
     width: 100%;
   }
   .active, li:hover {
-    background: linear-gradient(white 85%, $primary 15%);
-  }
-  @include media-breakpoint-down(lg) {
-    a {
-      font-size: 32px;
-    }
-    li:first-child img {
-      width: 32px;
-    }
-    li:nth-child(n + 2) img {
-      height: 32px;
-    }
+    background-image: linear-gradient(white 85%, $primary 15%);
   }
   @include media-breakpoint-down(md) {
     a {
@@ -25,22 +14,10 @@
     a {
       font-size: 22px;
     }
-    li:first-child img {
-      width: 26px;
-    }
-    li:nth-child(n + 2) img {
-      height: 26px;
-    }
   }
   @include media-breakpoint-down(xs) {
     a {
       font-size: 18px;
-    }
-    li:first-child img {
-      width: 22px;
-    }
-    li:nth-child(n + 2) img {
-      height: 22px;
     }
   }
   @include media-breakpoint-down(xxs) {

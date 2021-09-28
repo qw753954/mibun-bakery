@@ -5,7 +5,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -15090,15 +15090,16 @@ button:focus {
 }
 
 .logo {
-  font-family: "Baloo Da 2";
-  font-weight: 500;
+  font-family: "Kalam";
+  margin-top: 4px;
+  font-size: 32px;
 }
 .logo:hover {
   opacity: 0.85;
 }
 
 .banner {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 68px);
 }
 .banner::after {
   content: "";
@@ -15107,9 +15108,9 @@ button:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #e6b986), color-stop(70%, #5a504b));
-  background-image: linear-gradient(#e6b986 40%, #5a504b 70%);
-  opacity: 0.2;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #e6b986), color-stop(80%, #5a504b));
+  background-image: linear-gradient(#e6b986 30%, #5a504b 80%);
+  opacity: 0.25;
 }
 @media (max-width: 767.98px) {
   .banner h2 {
